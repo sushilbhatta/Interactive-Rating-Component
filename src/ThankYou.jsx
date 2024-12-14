@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import thankYouImage from "./assets/illustration-thank-you.svg";
 export default function ThankYou({ ratingScore }) {
   console.log(ratingScore);

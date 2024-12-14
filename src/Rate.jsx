@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import starIcon from "./assets/icon-star.svg";
 
 export default function Rate({ onRatingScore, onIsSubmit, ratingScore }) {

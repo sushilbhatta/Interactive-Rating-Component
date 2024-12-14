@@ -189,6 +189,21 @@ svg {
   align-items: center;
 }
 
+@media(max-width:350px) {
+  .main {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-container {
+    flex-direction: column;
+    border-radius: 1rem;
+    width: 90% !important;
+    /* height: auto; */
+    gap: 1.5rem;
+  }
+}
+
 .main-container {
   padding: 1.5rem;
   display: flex;
@@ -273,6 +288,16 @@ svg {
   width: 50%;
   /* height: auto; */
   gap: 1.5rem;
+}
+
+@media(max-width:350px) {
+  .main-thankyou-container {
+    flex-direction: column;
+    border-radius: 1rem;
+    width: 90% !important;
+    /* height: auto; */
+    gap: 1.5rem;
+  }
 }
 
 .thank-you-description {
